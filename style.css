@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    height: 40px;
+}
+.imag1{
+    background-image: url("bubbles-dktp.svg");
+    background-color: #ce3ba0;
+    width: 100%;
+    height: 665px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.phone{
+    width: 65%;
+     height: auto;
+ 
+     /* padding-left: 25%; */
+     padding-top: 18%;
+     
+ }
+@media (min-width:992px) {
+    .phone{
+        width: 550px;
+        height: 650px;
+
+    }
+}
+.pos{
+    position: absolute;
+    padding-left: 9em;
+    padding-top: 9em;
+    overflow: hidden;
+    height: 88vh;
+
+
+}
+.img2{
+    height: 430px;
+    width: 100%;
+   
+
+}
+.h1-text{
+    font-size: 60px;
+
+}
+body{
+    overflow-x: hidden;
+}
+.sec-3{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(#b023c2,#680de3);
+  
+}
+.sec-4{
+    background-image: url("lets-play.svg");
+    height: 500px;
+    background-color: #8817d6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+@media (max-width:992px) {
+    .sec-3{
+        height: 300px;
+    }
+    .sec-4{
+        height: 300px;
+    }
+    
+}
+.got{
+    color: #8817d6;
+}
+.ftr{
+    background-color: black;
+}
+li{
+    list-style-type: none;
+    padding: 7px 0;
+}
+a{
+    color: aliceblue;
+
+    text-decoration: none;
+}
+.but{
+    height: 55px;
+    width: 55px;
+    background-color: rgb(48, 48, 48, 1);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.atag{
+    font-size: small;
+    color:  rgb(175, 175, 175);
+}
+.icons{
+    color: aliceblue;
+    width: 100%;
+    font-size: 26px;
+}
+.sec-sm{
+    background-image: url("bubbles-phone-mobile.svg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 88% 150%;
+    background-position-x: 40%;   
+    
+}
+.btm{
+    background-image: linear-gradient(to top,#8817d6,transparent);
+    height: 150px;
+    margin-top: 50%;
+}
+.phn{
+    height:  80%;
+    width: 19%;
+    margin: 10%;
+}
+.pht{
+  
+    position: absolute;
+    height:  80%;
+    width: 19%;;
+}
+a:hover{
+    color: rgb(4, 255, 4);
+}
+.icons:hover{
+    color: rgb(4, 255, 4);
+}
